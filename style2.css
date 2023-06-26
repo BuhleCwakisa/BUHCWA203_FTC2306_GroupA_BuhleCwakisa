@@ -11,8 +11,10 @@ h2 {
 h3 {
     color:#65BB42 ;
 }
-img {
+#img {
     margin-inline: 25rem;
+    border-style: solid;
+    border-color: white;
     border-radius: 50%;
 }
 #head {
@@ -31,20 +33,37 @@ nav {
 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
-    
+    background-color:aquamarine;
+    border-radius: 50px;
+
+
 }
 ul {
     color: #770071;
 }
 footer{
     background-color: rgb(240, 167, 78);
+    border-radius: 50px;
+
 }
 #d {
+    color:rgb(179, 26, 52);
     margin-inline: 33rem;
     
 }
 header {
-    background-color: aquamarine;
+    background-color:aquamarine ;
     margin: solid 0% aquamarine;
-    border-radius:100%;
+    border-radius: 50px;
+    
+}
+#codespace{
+    color: rgb(179, 26, 52);
+}
+
+#mid {
+    margin-inline: 33rem;
+}
+#hi {
+    margin-inline: 5rem;
 }
