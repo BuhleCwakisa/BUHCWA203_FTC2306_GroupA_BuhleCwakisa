@@ -77,14 +77,22 @@ button:hover {
 
 #top {
     display: flex;
-    background-color: rgb(204, 74, 230);
-    color: rgb(181, 180, 185);
-    padding: 2rem;
+    background-image: url(./MPG-MostPopularOnlineMastersDegrees-Body13.jpg);
+    background-repeat: no-repeat;
+    color: #41dfff;
+    padding: 0%;
     padding-bottom: 4rem;
     height: 25vh;
 }
 .header-content {
     padding: 3rem;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    left: 380px;
+
+
+
 }
 #header-image {
     border-radius: 50%;
@@ -145,3 +153,4 @@ button {
 #linkedin{
     width: 50px;
 }
+
