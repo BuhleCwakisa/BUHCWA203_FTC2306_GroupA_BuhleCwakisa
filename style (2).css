@@ -96,8 +96,8 @@ button:hover {
 }
 #header-image {
     border-radius: 50%;
-    width: 400px;
-    height: 325px;
+    width: 25%;
+    height: 25%;
 }
 
 /* ---- Content ----- */
@@ -154,3 +154,191 @@ button {
     width: 50px;
 }
 
+/* ----------Phone---------- */
+
+@media only screen and (min-width:0px) and (max-width: 425px) {
+    #header-image {
+        width: 25%;
+        height: 25%;
+        border-radius: 50%;
+        margin-left: 30px;
+    }
+    .header-content {
+        padding: 0.8rem;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        left: 80px;
+        
+
+    }
+
+    h1 {
+        font-size: large;
+    }
+    p {
+        font-size: smaller;
+        
+    }
+    h2 {
+        font-size: small;
+    }
+    main {
+        margin: auto;
+    }
+
+    .service {
+        padding: 1rem;
+        display: flex;
+        margin: 1rem;
+    }
+    #form {
+        width: auto;
+        height: auto;
+        padding: auto;
+    }
+    #area {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width:426px) and (max-width: 769px) {
+    h1 {
+        font-size: large;
+    }
+
+
+}
+
+/*  
+@media only screen and (max-width: 375px) {
+    #header-image {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+    .header-content {
+        padding: 1.5rem;
+        position: absolute;
+        top: 9px;
+        right: 9px;
+        left: 90px;
+
+    }
+
+    h1 {
+        font-size: small;
+    }
+    p {
+        font-size: x-small;
+    }
+    h2 {
+        font-size: smaller;
+    }
+    main {
+        margin: auto;
+    }
+
+    .service {
+        padding: 0.9rem;
+        display: flex;
+        margin: 0.9;
+    }
+    #form {
+    width: auto;
+    height: auto;
+    padding: auto;
+
+    }
+    #area {
+        width: 200px;
+        height: 50px;
+        margin: 0%;
+    }
+}
+*/
+    
+
+/*
+
+@media only screen and (max-width: 320px) {
+    #header-image {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+    .header-content {
+        padding: 1rem;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        left: 80px;
+    
+    }
+    
+    h1 {
+        font-size: small;
+    }
+    p {
+        font-size: x-small;
+    }
+    h2 {
+        font-size: smaller;
+    }
+    main {
+        margin: auto;
+    }
+    
+    .service {
+        padding: 0.8rem;
+        display: flex;
+        margin: 0.8;
+    }
+    #form {
+        width: auto;
+        height: auto;
+        padding: auto;
+    
+        }
+    #area {
+        width: 200px;
+        height: 50px;
+        margin: 0%;
+    }
+} */
+@media only screen and (max-width: 768px){
+    #header-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 10px;
+        
+    }
+
+    .header-content {
+        padding: 1rem;
+        position: absolute;
+        top: 30px;
+        right: 10px;
+        left: 150px;
+
+    }
+
+    h1 {
+        font-size: large;
+    }
+    p {
+        font-size: smaller;
+    }
+    h2 {
+        font-size: small;
+    }
+    main {
+        margin: auto;
+    }
+    
+}
+       
